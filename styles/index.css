@@ -1,0 +1,46 @@
+:root{
+    --primary :#5d5f95;
+    --lightPrimary:#6769a6;
+
+}
+
+*{
+      font-family: "Montserrat", sans-serif;
+  
+ }
+
+ html,body{
+    padding: 0px;
+    margin: 0px;
+ }
+a{
+    text-decoration: none !important; 
+}
+
+
+
+.nav_item{
+    font-weight: bold;
+}
+.flex_container{
+    display: flex;
+
+}
+
+.justifier_navbar{
+    justify-content: space-between;
+}
+.navbar{
+    background: #ccc;
+    padding: 20px;
+}
+.profile_image{
+    height: 300px;
+    width: 300px;
+   border-radius:50%;
+   background: url(./../images/study.png);
+   background-position: center;
+   background-size: cover;
+ 
+ 
+}
