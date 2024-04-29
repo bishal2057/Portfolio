@@ -7,6 +7,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
         <title>BISHAL BHATTARI</title>
     </head>
@@ -17,8 +19,8 @@
 
             <div class="flex_container" style="gap: 20px;">
                 <div class="nav_item"> <a href="" style="color: var(--primary)">Home</a></div>
-                <div class="nav_item"> <a href="" style="color: var(--primary)">Skills</a></div>
-                <div class="nav_item"> <a href="" style="color: var(--primary)">Contact</a></div>
+                <div class="nav_item"> <a href="#what_i_do" style="color: var(--primary)">Services</a></div>
+                <div class="nav_item"> <a href="#contact_id" style="color: var(--primary)">Contact</a></div>
             </div>
         </div>
         <div style="background: #e7e7e7;">
@@ -40,12 +42,92 @@
                         Wordlink Communications Ltd. I am Network Adminstration. I have been working since  2019. I have sound knowledge in MPLS, OLT, BGP, BRAS and so on. Also, I do troubleshooting the issues faced by the customers. 
                     </div>
                     <div >
-                        <button class="primary_button">Contact Me</button> 
+                       <a href="#contact_id"><button class="primary_button">Contact Me</button> </a> 
                     </div>
                 </div>
-                <div class="profile_image"> </div>
+                <div class="profile_image" style="position: relative;"> 
+                    <div 
+                    style="position: absolute; top: 0px; right: 20px; height:40px ; width: 40px; background: #88dadd; border-radius: 50%;">
+
+                    </div>
+                </div>
+                    
             </div>
+        </div>
+        <br>
+        <div class="divider"></div>
+
         
+        <div id="what_i_do" style="max-width: 800px; margin: auto; text-align: center; padding-top:20px ;">
+            <div style="font-size: 25px; font-weight: bold;">What I Do !</div>
+            
+            <div class="flex_container" style="justify-content: space-around; margin-top: 20px; gap: 10px;">
+                <div class="rounded_card">
+                    <i class="fa-brands fa-web-awesome" style="font-size: 20px; color: var(--lightPrimary);"></i>
+                    <br>
+
+                    <div style="font-size: 17px; font-weight: bold; margin-top: 10px; margin-bottom: 10px;"> Web Development</div>
+                    <div style="font-size: 14px; line-height: 20px;">I can develop responsive website and delivery you at the quickest time. Trust me on that one!</div>
+                </div>
+                <div class="rounded_card">
+                    <i class="fa-solid fa-mobile" style="font-size: 20px; color: var(--lightPrimary);"></i>
+                    <br>
+
+                    <div style="font-size: 17px; font-weight: bold; margin-top: 10px; margin-bottom: 10px;"> App Development</div>
+                    <div style="font-size: 14px; line-height: 20px;">I can develop responsive website and delivery you at the quickest time. Trust me on that one!</div>
+                </div>
+                <div class="rounded_card">
+                    <i class="fa-brands fa-uncharted" style="font-size: 20px; color: var(--lightPrimary);"></i>
+                    <br>
+
+                    <div style="font-size: 17px; font-weight: bold; margin-top: 10px; margin-bottom: 10px;"> Software Development</div>
+                    <div style="font-size: 14px; line-height: 20px;">I can develop responsive website and delivery you at the quickest time. Trust me on that one!</div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- Have any Projects in Mind -->
+        <div class="divider"></div>
+        <div class="primary_banner" style="color: white; font-size: 20px; font-weight: bold; text-align: center;">
+            Have Any Projects in Mind? <br>
+            
+            <a href="tel:9801559961">
+                <button class="primary_button" style="background: white; color: var(--primary); box-shadow: none; width: 200px;">Call Me</button>
+            </a>
+        </div>
+
+        <!-- Contact us -->
+
+        <div  id="contact_id" class="contact_container" style="max-width: 900px; margin: auto; margin-top: 20px; margin-bottom: 20px;">
+            <div class="flex_container" style="justify-content: space-between;">
+                <div>
+                    <div class="contact_picture"></div>
+                </div>
+
+            
+                <!-- form   -->
+               <div style="width: 500px;">
+                <div class="" style="font-size: 30px; font-weight: bold;">Contact Me:</div><br>
+
+                <form action="./" method="post">
+                    <small> Your Name: </small> <br>
+                    <input type="text" name="person_name"> <br>
+                   <small>Mobile Number: </small> <br>
+                    <input type="text" name="mobile_number"><br>
+                   <small> Message: </small> <br>
+                    <textarea></textarea><br>
+
+                    <button class="primary_button" type="submit">Send Message</button>
+
+                </form>
+               </div> 
+            </div>
+        </div>
+
+        <!-- footer  -->
+        <div class="footer">
+            bishalbhattarai.com.np &copy;2023, All right reserved.
         </div>
     </body>
 </html>

@@ -1,0 +1,14 @@
+
+@media screen and (max-width:480px) {
+    .flex_container{
+        flex-direction: column;
+        padding: 10px;
+        }
+    .contact_picure{
+        display: none;
+    }
+
+    .rounded_card{
+        width: auto;
+    }
+}
