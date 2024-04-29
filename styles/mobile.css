@@ -11,4 +11,7 @@
     .rounded_card{
         width: auto;
     }
+    *{
+        height: 100%;
+    }
 }
